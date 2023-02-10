@@ -1,0 +1,36 @@
+{
+  "name": "binary-convert",
+  "version": "0.0.1",
+  "description": "一个base64, file, blob相互转换的工具类",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config config/webpack.dev.config.js",
+    "build": "webpack --config config/webpack.prod.config.js",
+    "pub": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RhysZhao/binary-convert.git"
+  },
+  "keywords": [
+    "base64-converter",
+    "file-converter",
+    "blob-converter",
+    "binary-convert"
+  ],
+  "author": "rhys.zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RhysZhao/binary-convert/issues"
+  },
+  "homepage": "https://github.com/RhysZhao/binary-convert#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.3"
+  }
+}
